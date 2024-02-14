@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="ID-4026FFA3-6157-42B5-80AA-9DEC5F64FF00" version="1"
+                  xmlns = "http://www.imsglobal.org/xsd/imscp_v1p1"
+                  xmlns:adlcp = "http://www.adlnet.org/xsd/adlcp_v1p3"
+                  xmlns:adlseq = "http://www.adlnet.org/xsd/adlseq_v1p3"
+                  xmlns:adlnav = "http://www.adlnet.org/xsd/adlnav_v1p3"
+                  xmlns:imsss = "http://www.imsglobal.org/xsd/imsss"
+                  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:lom="http://ltsc.ieee.org/xsd/LOM"
+                  xsi:schemaLocation = "http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                                       http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                                       http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                                       http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                                       http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd
+                                       http://ltsc.ieee.org/xsd/LOM lom.xsd" >
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 4th Edition</schemaversion>
+    <lom:lom>
+      <lom:general>
+        <lom:description>
+          <lom:string language="hu"></lom:string>
+        </lom:description>
+      </lom:general>
+    </lom:lom>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>Camtasia Video Course</title>
+      <item identifier="I_SCO0" identifierref="SCO0" isvisible="true">
+            <title>Untitled</title>
+            </item>
+
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="SCO0" type="webcontent" adlcp:scormType="sco" href="Új kurzuskategória létrehozása.html">
+            <file href="Új kurzuskategória létrehozása.html"/>
+            <dependency identifierref="ALLRESOURCES" />
+         </resource>
+
+    <resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormType="asset">
+      <file href="Új kurzuskategória létrehozása.html" />
+            <file href="Új kurzuskategória létrehozása_embed.css" />
+            <file href="Új kurzuskategória létrehozása_player.html" />
+            <file href="Új kurzuskategória létrehozása.mp4" />
+            <file href="Új kurzuskategória létrehozása_config.xml" />
+            <file href="Új_kurzuskategória_létrehozása_First_Frame.png" />
+            <file href="Új_kurzuskategória_létrehozása_Thumbnails.png" />
+
+    </resource>
+  </resources>
+</manifest>
